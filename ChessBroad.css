@@ -1,0 +1,35 @@
+div {
+    width: 750px;
+    height: 750px;
+    margin: 0 auto;
+    background-color: orange;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+th {
+    font-size: 18px;
+}
+th:nth-child(1) {
+    padding: 0 10px;
+}
+th:nth-child(n+2) {
+    padding: 10px 0;
+}
+td {
+    width: 80px;
+    height: 80px;
+}
+tr:nth-child(even) td:nth-child(even) {
+    background-color: black;
+}
+tr:nth-child(odd) td:nth-child(odd) {
+    background-color: black;
+}
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: white;
+}
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: white;
+}
